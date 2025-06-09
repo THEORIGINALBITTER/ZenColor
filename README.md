@@ -72,9 +72,7 @@ struct ContentView: View {
 - Dynamische Anpassung an Light/Dark Mode im Schachbrett-Hintergrund.
 - Palette wird beim Start geladen, lokale Speicherung optional über `ColorKit.loadCustomPalette()`.
 
-## Vorschau
 
-*(Screenshot Beispiel einfügen)*
 
 ## Lizenz
 
