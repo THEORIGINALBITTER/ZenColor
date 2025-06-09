@@ -26,7 +26,7 @@ Ein flexibles und modernes SwiftUI ColorKit für individuelle Farbpalette mit JS
 
 Das ZenColor Kit ist als SwiftUI-View konzipiert und benötigt Swift 5+ mit macOS/iOS 14+.
 
-RAW --> Donwnload 
+RAW --> Download 
 
 // Bitte beachte - noch kein Signatur daher bitte Systemeinstellung --> App zulassen 
 
