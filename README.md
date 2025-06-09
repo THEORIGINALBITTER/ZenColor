@@ -37,3 +37,60 @@ struct ContentView: View {
         ColorKit_Preview()
     }
 }
+
+
+
+# ZenColor Kit
+
+## Nutzung
+
+### Farbwahl
+- Schalte zwischen Farbkreis und RGB-Slider mit dem Button um.
+- Farbton, Sättigung, Helligkeit und Alpha können individuell eingestellt werden.
+- Neue Farben können mit einem Namen versehen und zur Palette hinzugefügt werden.
+
+### Palette
+- Gespeicherte Farben werden in der Liste angezeigt mit Vorschau, Namen, RGB-Werten und HEX-Code.
+- HEX-Code kann durch Klick kopiert werden, mit Bestätigung "kopiert" als Feedback.
+- Palette kann als JSON exportiert und z.B. in anderen Projekten verwendet werden.
+
+## Komponentenübersicht
+
+| Komponente              | Beschreibung                                                                 |
+|-------------------------|------------------------------------------------------------------------------|
+| `ColorCircle`           | Farbkreis zur intuitiven Farbwahl                                            |
+| `MonoSlider`            | RGB-, Saturation-, Brightness- und Alpha-Slider mit farblicher Kennzeichnung |
+| `CheckerboardView`      | Schachbrett-Hintergrund zur transparenten Farbdarstellung                    |
+| `MonoButton`            | Stilisiert Buttons mit Icon und Text                                         |
+| `NoFocusRingTextField`  | Eingabefeld ohne Fokus-Ring (sauberes UI)                                    |
+
+## Technische Details
+
+- Farbkonvertierung basiert auf `NSColor` mit kalibrierten Farbkomponenten.
+- Synchronisation von Hue ↔ RGB erfolgt bidirektional mit State-Handling.
+- Alpha-Komponente wird vollständig unterstützt.
+- Dynamische Anpassung an Light/Dark Mode im Schachbrett-Hintergrund.
+- Palette wird beim Start geladen, lokale Speicherung optional über `ColorKit.loadCustomPalette()`.
+
+## Vorschau
+
+*(Screenshot Beispiel einfügen)*
+
+## Lizenz
+
+MIT License – frei nutzbar und anpassbar.
+
+## Kontakt & Support
+
+- Webseite: [theoriginalbitter.de](https://www.theoriginalbitter.de)
+- Instagram: [@theoriginalbitter](https://www.instagram.com/theoriginalbitter)
+- LinkedIn: [theoriginalbitter](https://www.linkedin.com/in/theoriginalbitter)
+- YouTube: [theoriginalbitter](https://www.youtube.com/@theoriginalbitter)
+
+---
+
+Danke für dein Interesse am ZenColor Kit!  
+Viel Spaß beim Farbmischen 🎨
+
+bitter. Lern Einfach. Authentisch
+
