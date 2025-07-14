@@ -7,6 +7,13 @@ Ein flexibles und modernes SwiftUI ColorKit für individuelle Farbpalette mit JS
 
 ---
 
+<img width="1012" height="1155" alt="Bildschirmfoto 2025-07-14 um 09 27 23" src="https://github.com/user-attachments/assets/eed55fcc-1502-4a1e-8f04-2bc8655b1569" />
+
+---
+<img width="1012" height="1155" alt="Bildschirmfoto 2025-07-14 um 09 27 56" src="https://github.com/user-attachments/assets/61bd1765-e9ff-48b0-927c-710840d80749" />
+
+---
+
 ## Features
 
 - Intuitive Farbwahl per Farbkreis oder RGB-Slider
